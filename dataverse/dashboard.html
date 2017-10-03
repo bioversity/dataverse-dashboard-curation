@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Bioversity dataverse</title>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="lib/d3/d3.min.js"></script>
+		<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+		<script type="text/javascript" src="js/bar.js"></script>
+		<script type="text/javascript" src="js/donut.js"></script>
+		<script type="text/javascript" src="js/donutDataset.js"></script>
+		<script type="text/javascript" src="js/plot.js"></script>
+		<script type="text/javascript" src="js/wordtag.js"></script>
+		<script type="text/javascript" src="js/d3cloud.js"></script>
+		<script type="text/javascript" src="js/map.js"></script>
+		<!-- <script type="text/javascript" src="//d3js.org/d3.v4.min.js"></script> -->
+		<!-- <script type="text/javascript" src="js/bubbles.js"></script> -->
+		<link href="css/bar.css" rel="stylesheet" type="text/css" />
+		<link href="css/donut.css" rel="stylesheet" type="text/css" />
+
+
+		<script>
+		    $(document).ready(
+		            function() {
+		                donut("data/dataverseDonutDashboard.json", '#donut', [0,6]);
+		                donut("data/dataverseDonutDashboard.json", '#donut1', [6,13]);
+		                
+		                // replace the contents of the div with the link text
+		                var content;
+						$.get('data/dataverseDatasets.json', function(data){
+						    content = "A total of "+ data + " datasets has been uploaded on dataverse";
+						    $('#intro').html(content);
+						});
+
+						var page = 1;
+						donutDataset("data/dataverseDonutDataset.json", '#donutDatasets', page);
+						$('#next').click(function() {
+						    page++;
+						    donutDataset("data/dataverseDonutDataset.json", '#donutDatasets', page);
+						});
+
+						$('#last').click(function() {
+						    page--;
+						    donutDataset("data/dataverseDonutDataset.json", '#donutDatasets', page);
+						});
+
+		            });
+		</script>
+
+	</head>
+	<body>
+
+		<header class="header">
+		  <div class="header__inner">
+		    <h1 class="header__title">
+		      Bioversity Dataverse
+		    </h1>
+		    <h2 id="intro"></h2>
+		  </div>
+		</header>
+		<main>
+		  	<div class="container">
+			  	<h1>percentage of datasets that comply with cg core metadata</h1>
+			  		<div class="box">
+			        	<div id="donut"></div>
+						<div id="donut1"></div>
+						<!-- <div id="donut2"></div> -->
+			   		</div>
+			</div>
+			<div class="container">
+			  	<h1>Compliace to the cg core metadata per dataset</h1>
+		       	<div class="box " id="names">
+		       		<!-- <h4>Dataset xxx</h4> -->
+		       		<div id="donutDatasets"></div>
+		       		<button id="last">last</button>
+    				<button id="next">next</button>
+					<div id="donutDatasets1"></div>
+		       	</div>	
+		       	<div class="box main-graph-1" id="names">
+		       		
+		       	</div>
+			</div>
+		  
+		</main>
+		
+	</body>
+</html>
