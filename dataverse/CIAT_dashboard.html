@@ -25,10 +25,10 @@
 		                
 		                // replace the contents of the div with the link text
 		                var content;
-						//$.get('data/CIAT_dataverseDatasets.json', function(data){
-						    content = "A total of "+ 124 + " datasets has been uploaded on dataverse";
+						$.get('data/CIAT_dataverseDonutDataset.json', function(data){
+						    content = "A total of "+ Object.keys(data).length + " datasets has been uploaded on dataverse";
 						    $('#intro').html(content);
-						//});
+						});
 
 						var page = 1;
 						donutDataset("data/CIAT_dataverseDonutDataset.json", '#donutDatasets', page);

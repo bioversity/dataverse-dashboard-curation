@@ -28,8 +28,8 @@
 		                
 		                // replace the contents of the div with the link text
 		                var content;
-						$.get('data/dataverseDatasets.json', function(data){
-						    content = "A total of "+ data + " datasets has been uploaded on dataverse";
+						$.get('data/dataverseDonutDataset.json', function(data){
+						    content = "A total of "+ Object.keys(data).length + " datasets has been uploaded on dataverse";
 						    $('#intro').html(content);
 						});
 
