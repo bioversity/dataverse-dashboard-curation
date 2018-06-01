@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>IFPRI dataverse</title>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="lib/d3/d3.min.js"></script>
+
+		<script type="text/javascript" src="js/donut.js"></script>
+		<script type="text/javascript" src="js/donutDataset.js"></script>
+
+		<link href="css/bar.css" rel="stylesheet" type="text/css" />
+		<link href="css/donut.css" rel="stylesheet" type="text/css" />
+
+
+		<script>
+		    $(document).ready(
+		            function() {
+		                donut("data/IFPRI_dataverseDonutDashboard.json", '#donut', [0,6]);
+		                donut("data/IFPRI_dataverseDonutDashboard.json", '#donut1', [6,13]);
+
+		                //donutDataset("data/CIAT_dataverseDonutDataset.json", '#donutDatasets');
+
+		                
+		                // replace the contents of the div with the link text
+		                var content;
+						$.get('data/IFPRI_dataverseDonutDataset.json', function(data){
+						    content = "A total of "+ Object.keys(data).length + " datasets has been uploaded on dataverse";
+						    $('#intro').html(content);
+						});
+
+						var page = 1;
+						donutDataset("data/IFPRI_dataverseDonutDataset.json", '#donutDatasets', page);
+						$('#next').click(function() {
+						    page++;
+						    donutDataset("data/IFPRI_dataverseDonutDataset.json", '#donutDatasets', page);
+						});
+
+						$('#last').click(function() {
+						    page--;
+						    donutDataset("data/IFPRI_dataverseDonutDataset.json", '#donutDatasets', page);
+						});
+
+		            });
+		</script>
+
+	</head>
+	<body>
+
+		<header class="header">
+		  <div class="header__inner">
+		    <h1 class="header__title">
+		      IFPRI Dataverse
+		    </h1>
+		    <h2 id="intro"></h2>
+		  </div>
+		</header>
+		<main>
+		  	<div class="container">
+			  	<h1>percentage of datasets that comply with cg core metadata</h1>
+			  		<div class="box">
+			        	<div id="donut"></div>
+						<div id="donut1"></div>
+						<!-- <div id="donut2"></div> -->
+			   		</div>
+			</div>
+			<div class="container">
+			  	<h1>Compliance to the cg core metadata per dataset</h1>
+		       	<div class="box " id="names">
+		       		<!-- <h4>Dataset xxx</h4> -->
+		       		<div id="donutDatasets"></div>
+		       		<button id="last">last</button>
+    				<button id="next">next</button>
+		       	</div>	
+		       	<div class="box main-graph-1" id="names">
+		       		
+		       	</div>
+			</div>
+		  
+		</main>
+		
+	</body>
+</html>
