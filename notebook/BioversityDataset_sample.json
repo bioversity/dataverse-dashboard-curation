@@ -1,0 +1,356 @@
+[
+  {
+    "publisher": "Harvard Dataverse",
+    "protocol": "doi",
+    "authority": "10.7910/DVN",
+    "datasetVersion": {
+      "files": [
+        {
+          "dataFile": {
+            "originalFormatLabel": "UNKNOWN",
+            "contentType": "application/zip",
+            "description": "",
+            "filename": "chgfut50.zip",
+            "md5": "b667cb5ff29f5670426742939eb17743",
+            "id": 2548643,
+            "storageIdentifier": "303437"
+          },
+          "datasetVersionId": 76936,
+          "version": 1,
+          "description": "",
+          "label": "chgfut50.zip"
+        },
+        {
+          "dataFile": {
+            "originalFormatLabel": "UNKNOWN",
+            "contentType": "text/plain; charset=US-ASCII",
+            "description": "",
+            "filename": "CoffeePoints_2.csv",
+            "md5": "6b3ba3ff22f866c96b822e09aca968fb",
+            "id": 2548364,
+            "storageIdentifier": "303019"
+          },
+          "datasetVersionId": 76936,
+          "version": 1,
+          "description": "",
+          "label": "CoffeePoints_2.csv"
+        },
+        {
+          "dataFile": {
+            "originalFormatLabel": "UNKNOWN",
+            "contentType": "application/zip",
+            "description": "",
+            "filename": "current.zip",
+            "md5": "73ea93708a9bea596151d12c8faafa13",
+            "id": 2548644,
+            "storageIdentifier": "303431"
+          },
+          "datasetVersionId": 76936,
+          "version": 1,
+          "description": "",
+          "label": "current.zip"
+        },
+        {
+          "dataFile": {
+            "originalFormatLabel": "UNKNOWN",
+            "contentType": "application/zip",
+            "description": "",
+            "filename": "fut50.zip",
+            "md5": "86d378f616b938b73e16e54bd00c8a74",
+            "id": 2548645,
+            "storageIdentifier": "303436"
+          },
+          "datasetVersionId": 76936,
+          "version": 1,
+          "description": "",
+          "label": "fut50.zip"
+        }
+      ],
+      "metadataBlocks": {
+        "citation": {
+          "fields": [
+            {
+              "typeName": "title",
+              "multiple": false,
+              "value": "Replication Data for: Projected shifts in Coffea arabica suitability among major global producing regions due to climate change",
+              "typeClass": "primitive"
+            },
+            {
+              "typeName": "author",
+              "multiple": true,
+              "value": [
+                {
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "value": "International Center for Tropical Agriculture - CIAT",
+                    "typeClass": "primitive"
+                  },
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "value": "Ovalle Rivera, Oriana",
+                    "typeClass": "primitive"
+                  }
+                },
+                {
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "value": "International Center for Tropical Agriculture - CIAT",
+                    "typeClass": "primitive"
+                  },
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "value": "Läderach, Peter",
+                    "typeClass": "primitive"
+                  }
+                },
+                {
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "value": "Humboldt-University of Berlin",
+                    "typeClass": "primitive"
+                  },
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "value": "Bunn, Christian",
+                    "typeClass": "primitive"
+                  }
+                },
+                {
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "value": "International Institute for Applied Systems Analysis",
+                    "typeClass": "primitive"
+                  },
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "value": "Obersteiner, Michael",
+                    "typeClass": "primitive"
+                  }
+                },
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "value": "Schroth, Götz",
+                    "typeClass": "primitive"
+                  }
+                }
+              ],
+              "typeClass": "compound"
+            },
+            {
+              "typeName": "datasetContact",
+              "multiple": true,
+              "value": [
+                {
+                  "datasetContactEmail": {
+                    "typeName": "datasetContactEmail",
+                    "multiple": false,
+                    "value": "l.mwanzia@cgiar.org",
+                    "typeClass": "primitive"
+                  },
+                  "datasetContactName": {
+                    "typeName": "datasetContactName",
+                    "multiple": false,
+                    "value": "CIAT",
+                    "typeClass": "primitive"
+                  }
+                }
+              ],
+              "typeClass": "compound"
+            },
+            {
+              "typeName": "dsDescription",
+              "multiple": true,
+              "value": [
+                {
+                  "dsDescriptionValue": {
+                    "typeName": "dsDescriptionValue",
+                    "multiple": false,
+                    "value": "The dataset has 2194 coffee location points. Most of the data came from projects developed by the International Center for Tropical Agriculture (CIAT) in collaboration with other research centers and producer cooperatives.  We modeled the global distribution of Arabica coffee under changes in climatic suitability by 2050s as projected by 21 global circulation models.",
+                    "typeClass": "primitive"
+                  }
+                }
+              ],
+              "typeClass": "compound"
+            },
+            {
+              "typeName": "subject",
+              "multiple": true,
+              "value": [
+                "Earth and Environmental Sciences"
+              ],
+              "typeClass": "controlledVocabulary"
+            },
+            {
+              "typeName": "keyword",
+              "multiple": true,
+              "value": [
+                {
+                  "keywordVocabulary": {
+                    "typeName": "keywordVocabulary",
+                    "multiple": false,
+                    "value": "AGROVOC",
+                    "typeClass": "primitive"
+                  },
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "value": "Coffea arabica",
+                    "typeClass": "primitive"
+                  },
+                  "keywordVocabularyURI": {
+                    "typeName": "keywordVocabularyURI",
+                    "multiple": false,
+                    "value": "http://aims.fao.org/aos/agrovoc/c_1721",
+                    "typeClass": "primitive"
+                  }
+                },
+                {
+                  "keywordVocabulary": {
+                    "typeName": "keywordVocabulary",
+                    "multiple": false,
+                    "value": "CIAT Research Area",
+                    "typeClass": "primitive"
+                  },
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "value": "DAPA",
+                    "typeClass": "primitive"
+                  }
+                }
+              ],
+              "typeClass": "compound"
+            },
+            {
+              "typeName": "publication",
+              "multiple": true,
+              "value": [
+                {
+                  "publicationIDNumber": {
+                    "typeName": "publicationIDNumber",
+                    "multiple": false,
+                    "value": "10.1371/journal.pone.0124155",
+                    "typeClass": "primitive"
+                  },
+                  "publicationIDType": {
+                    "typeName": "publicationIDType",
+                    "multiple": false,
+                    "value": "doi",
+                    "typeClass": "controlledVocabulary"
+                  },
+                  "publicationCitation": {
+                    "typeName": "publicationCitation",
+                    "multiple": false,
+                    "value": "Ovalle Rivera,\n                    Oriana; Läderach,\n                    Peter; Bunn,\n                    Christian; Obersteiner,\n                    Michael; Schroth,\n                    Götz. 2015. Projected shifts in Coffea arabica suitability among major global producing regions due to climate change. PLoS One 10(4):e0124155.",
+                    "typeClass": "primitive"
+                  },
+                  "publicationURL": {
+                    "typeName": "publicationURL",
+                    "multiple": false,
+                    "value": "http://dx.doi.org/10.1371/journal.pone.0124155",
+                    "typeClass": "primitive"
+                  }
+                }
+              ],
+              "typeClass": "compound"
+            },
+            {
+              "typeName": "producer",
+              "multiple": true,
+              "value": [
+                {
+                  "producerURL": {
+                    "typeName": "producerURL",
+                    "multiple": false,
+                    "value": "http://ciat.cgiar.org/",
+                    "typeClass": "primitive"
+                  },
+                  "producerLogoURL": {
+                    "typeName": "producerLogoURL",
+                    "multiple": false,
+                    "value": "http://ciat-library.ciat.cgiar.org/dm_images/CIAT-Logo-255x128.png",
+                    "typeClass": "primitive"
+                  },
+                  "producerAbbreviation": {
+                    "typeName": "producerAbbreviation",
+                    "multiple": false,
+                    "value": "CIAT",
+                    "typeClass": "primitive"
+                  },
+                  "producerName": {
+                    "typeName": "producerName",
+                    "multiple": false,
+                    "value": "International Center for Tropical Agriculture",
+                    "typeClass": "primitive"
+                  }
+                }
+              ],
+              "typeClass": "compound"
+            },
+            {
+              "typeName": "distributor",
+              "multiple": true,
+              "value": [
+                {
+                  "distributorURL": {
+                    "typeName": "distributorURL",
+                    "multiple": false,
+                    "value": "https://dataverse.harvard.edu/dataverse/ciat",
+                    "typeClass": "primitive"
+                  },
+                  "distributorName": {
+                    "typeName": "distributorName",
+                    "multiple": false,
+                    "value": "CIAT Dataverse",
+                    "typeClass": "primitive"
+                  }
+                }
+              ],
+              "typeClass": "compound"
+            },
+            {
+              "typeName": "distributionDate",
+              "multiple": false,
+              "value": "2011",
+              "typeClass": "primitive"
+            },
+            {
+              "typeName": "dateOfDeposit",
+              "multiple": false,
+              "value": "2015-03-26",
+              "typeClass": "primitive"
+            }
+          ],
+          "displayName": "Citation Metadata"
+        }
+      },
+      "citation": "Ovalle Rivera, Oriana; Läderach, Peter; Bunn, Christian; Obersteiner, Michael; Schroth, Götz, 2015, \"Replication Data for: Projected shifts in Coffea arabica suitability among major global producing regions due to climate change\", doi:10.7910/DVN/29634, Harvard Dataverse, V3",
+      "license": "NONE",
+      "lastUpdateTime": "2015-09-17T17:18:28Z",
+      "versionMinorNumber": 2,
+      "disclaimer": "Whilst utmost care has been taken CIAT and data authors while collecting and compiling the data, the data is however offered \"as is\" with no express or implied warranty. In no event shall the data authors, CIAT, or relevant funding agencies be liable for any actual, incidental or consequential damages arising from use of the data.\r\n<BR/><BR/>\r\nBy using the CIAT Dataverse, the user expressly acknowledges that the Data may contain some nonconformities, defects, or errors. No warranty is given that the data will meet the user's needs or expectations or that all nonconformities, defects, or errors can or will be corrected. \r\n<BR/><BR/>\r\nThe user should always verify actual data; therefore the user bears all responsibility in determining whether the data is fit for the user’s intended use.  The user of the data should use the related publications as a baseline for their analysis whenever possible. Doing so will be an added safeguard against misinterpretation of the data. Related publications are listed in the metadata section of the Dataverse study.",
+      "versionNumber": 3,
+      "createTime": "2015-09-17T17:16:48Z",
+      "termsOfUse": "<a rel=\"license\" href=\"http://creativecommons.org/licenses/by/4.0/\" target=\"_blank\"><img alt=\"Creative Commons License\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by/4.0/88x31.png\" /></a><br />\r\nThese data and documents are licensed under a <a href=\"http://creativecommons.org/licenses/by/4.0/\" target=\"_blank\"> Creative Commons Attribution 4.0 International license.</a> You may copy, distribute and transmit the data as long as you acknowledge the source through proper <a href=\"http://best-practices.dataverse.org/data-citation/\" target=\"_blank\">data citation</a>.",
+      "distributionDate": "2011",
+      "versionState": "RELEASED",
+      "productionDate": "Production Date",
+      "id": 76936,
+      "releaseTime": "2015-09-17T17:18:28Z"
+    },
+    "publicationDate": "2015-03-26",
+    "persistentUrl": "http://dx.doi.org/10.7910/DVN/29634",
+    "identifier": "29634",
+    "id": 48850
+  }
+]

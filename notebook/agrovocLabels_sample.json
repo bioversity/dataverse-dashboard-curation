@@ -1,0 +1,67 @@
+{
+  "head": {
+    "vars": [
+      "uri",
+      "label"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "uri": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/c_38430"
+        },
+        "label": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "Pliotrema warreni"
+        }
+      },
+      {
+        "uri": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/c_37034"
+        },
+        "label": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "Lepomis"
+        }
+      },
+      {
+        "uri": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/c_8584"
+        },
+        "label": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "resistance to acaricides"
+        }
+      },
+      {
+        "uri": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/c_44115"
+        },
+        "label": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "Nototheniidae (17092XXXXX)"
+        }
+      },
+      {
+        "uri": {
+          "type": "uri",
+          "value": "http://aims.fao.org/aos/agrovoc/c_36820"
+        },
+        "label": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "rodenticide selectivity"
+        }
+      }
+    ]
+  }
+}
