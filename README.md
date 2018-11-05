@@ -9,4 +9,4 @@ dataverse folder: the code for the dashboard itself, using the data saved as jso
 
 To access to the dashboard: https://bioversity.github.io/dataverse-dashboard-curation/dataverse/dashboard.html
 
-If are new and you wnat to try this repository locally, follow the [Wiki installation page](https://github.com/bioversity/dataverse-dashboard-curation/wiki)
+If are new and you want to try this repository locally, follow the [Wiki installation page](https://github.com/bioversity/dataverse-dashboard-curation/wiki)
